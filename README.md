@@ -34,3 +34,22 @@ Este script foi desenvolvido para auxiliar na verificação da quantidade de usu
 
 Para instalar as dependências, execute:  
 npm install fastify digest-fetch
+
+---
+
+## 📂 Passo a Passo para Executar o Script
+
+1. Clone o repositório ou copie o arquivo do script para o seu servidor:<BR>
+   git clone https://https://github.com/Ordeeep/hikvision-facial-reader-api
+
+3. Instale as dependências necessárias para o projeto utilizando o npm:<BR>
+   npm install fastify digest-fetch
+
+4. Execute o script utilizando o comando:<BR>
+   npm run dev
+
+5. A rota para testar a aplicação é a **http://localhost:3398/**<BR>
+   Parâmetros necessários para a requisição:<BR>
+   -`host_ip:` IP do leitor<BR>
+   -`login:` nome de usuário do leitor<BR>
+   -`password:` senha do leitor<BR>
